@@ -1,0 +1,12 @@
+Package: biotiny
+Type: Package
+Title: Collection of Tiny Tools For Bioinformatics
+Version: 0.1.0
+Date: 2019-06-02
+Author: Kai Guo
+Maintainer: Kai Guo <guokai8@gmail.com>
+Description: The package include lots of tiny tools collected for bioinformatics analysis
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.1)
+LinkingTo: Rcpp
+RoxygenNote: 6.1.1
