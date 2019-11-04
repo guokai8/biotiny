@@ -8,6 +8,7 @@ cor_test<-function(x, use.colnames = TRUE,self = TRUE){
     comb <- expand.grid(colnames(x),colnames(x))
     }else{
     comb <- expand.grid(rownames(x),rownames(x))
+    x <- as.data.frame(t(x))
     }
   if(self == FALSE){
     comb <- comb[comb$Var1 != comb$Var2, ]
