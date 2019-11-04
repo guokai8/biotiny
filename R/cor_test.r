@@ -1,3 +1,8 @@
+##' @title cor.test for data.frame
+##' @importFrom broom tidy
+##' @importFrom purrr map_df
+##' @importFrom purrr pmap
+##' @importFrom magrittr %>%
 cor_test<-function(x, use.colnames = T){
   if(use.colnames == TRUE){
     comb <- expand.grid(colnames(x),colnames(x))
