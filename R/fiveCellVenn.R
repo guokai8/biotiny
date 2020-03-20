@@ -1,3 +1,4 @@
+###https://stackoverflow.com/questions/32440128/nice-looking-five-sets-venn-diagrams/40048520
 fiveCellVenn <- function(colorList=col2rgb(rainbow(5)),
                          cellCounts=seq(1,31,1),
                          cellLabels=c("one","two","three","four","five"),
